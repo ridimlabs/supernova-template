@@ -1,12 +1,12 @@
 {
-  "id": "io.supernova.documentation-main",
-  "name": "Default Documentation",
-  "description": "Default customizable exporter for design system documentation",
-  "author": "Supernova",
-  "organization": "Supernova",
+  "id": "io.AFKL.aero.documentation",
+  "name": "Aero Template Documentation",
+  "description": "Custom documentation template made by the Aero Design Team",
+  "author": "David Ben",
+  "organization": "Air France / KLM",
   "source_dir": "src",
   "assets_dir": "assets",
-  "version": "4.7.1",
+  "version": "1.0.0",
   "usesBrands": false,
   "config": {
     "sources": "sources.json",
