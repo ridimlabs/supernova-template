@@ -1,6 +1,5 @@
 /* =================================== */
 
-
 /*  Theme & variables
 /* =================================== */
 
@@ -10,7 +9,6 @@
 @import './inc/keyframes';
 
 /* =================================== */
-
 
 /*  Modules
 /* =================================== */
@@ -22,7 +20,6 @@
 @import './modules/footer';
 
 /* =================================== */
-
 
 /*  Components
 /* =================================== */
@@ -40,7 +37,6 @@
 @import './components/tooltip';
 
 /* =================================== */
-
 
 /*  Blocks
 /* =================================== */
@@ -62,14 +58,12 @@
 
 /* =================================== */
 
-
 /*  Code hightlight
 /* =================================== */
 
 @import './code/highlight.scss';
 
 /* =================================== */
-
 
 /*  Vendor
 /* =================================== */
@@ -79,7 +73,6 @@
 
 /* =================================== */
 
-
 /*  Legacy (all the original stylingú
 /* =================================== */
 
@@ -87,10 +80,33 @@
 
 /* =================================== */
 
-
 /*  Deprecated (doesn't seem to be used in exporter anywhere)
 /* =================================== */
 
 @import './deprecated/featured-box';
 @import './deprecated/style-switcher';
 @import './deprecated/bootstrap-specific';
+
+/*  Custom
+  /* =================================== */
+
+@font-face {
+  font-family: 'Excellence In Motion';
+  src: url(/assets/fonts/Excellence_In_Motion_Regular_V5.woff);
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Excellence In Motion';
+  src: url(/assets/fonts/Excellence_In_Motion_Medium_V5.woff);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Excellence In Motion';
+  src: url(/assets/fonts/Excellence_In_Motion_Bold_V5.woff);
+  font-weight: 800;
+}
+
+:root {
+  --fontFamily: 'Excellence In Motion';
+  --headingFontFamily: 'Excellence In Motion';
+}
